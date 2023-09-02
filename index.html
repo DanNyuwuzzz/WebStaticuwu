@@ -1,0 +1,229 @@
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Pagina web</title> 
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="encima-del-header">
+            <div class="redes-sociales">
+                <nav>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2504/2504957.png"></a>
+                </nav>
+            </div>
+            <div class="texto">
+                <p>Servicio de delivery a todo Lima</p>
+            </div>
+        </div>
+        <header id="myheader"> 
+            <div class="contenedor">
+                <div class="izquierda">
+                    <nav>
+                    <ul>
+                        <li class="categorias">
+                            <a class="line" href="#">Categorias</a>
+                        </li>
+                        <li class="campañas">
+                            <a id="campaña-Id" class="line" href="#">Campañas</a>
+                            <ul class="campañas-desplegable">  
+                                <li>
+                                    <img src="/img/img1.jpg" alt="Imagen 1">
+                                    <a class="men-campa" href="#">Pasada</a>
+                                </li>
+                                <li>
+                                    <img src="/img/img2.jpg" alt="Imagen 1">
+                                    <a class="men-campa" href="presente.html">Presente</a>
+                                </li>
+                                <li>
+                                    <img src="/img/img3.jpg" alt="Imagen 1">
+                                    <a class="men-campa" href="#">Futura</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a class="line" href="#">Ofertas</a></li>
+                        <li><a class="line" href="#">Promociones</a></li>
+                        <li><a class="line" href="#">Preventa</a></li>
+                    </ul>
+                    </nav> 
+                </div>
+
+                <div class="centro">
+                    <a href="index.html">Nombre de la pagina</a>
+                </div>
+                <div class="derecha">
+                    <nav>
+                        <a  href="#">Mis pedidos <img src="https://cdn-icons-png.flaticon.com/512/709/709790.png" width="30" style="margin: -3 0 0 4;"></a>
+                        <a  href="#">Carrito <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" width="23" style="margin: 0 0 0 4;"></a>
+                        <a  href="#">Mi cuenta <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" width="21" style="margin: 0 0 0 9;"></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="rectangulo">
+            <div class="rombo" style="margin: 1.2% 0 0 29.5%;">
+                <img src="img/rombo.svg">
+            </div>
+            <div class="rombo" style="margin: 1.2% 0 0 64.5%;">
+                <img src="img/rombo.svg">
+            </div>
+            <a href="#" style="margin-right: 5%;"><p class="ofertas">OFERTAS</p></a>
+            
+            <a href="#" class="promocion" style="margin-right: 5%;">
+
+                    <img src="img/polo2.png" class="img1">
+                    <img src="img/polo1.png" class="img2">
+
+                    <p>Hasta</p>
+                    <h1>50</h1>
+                    <h2>
+                        %<sup>*</sup>
+                        <br>
+                        <sub>DSCTO.</sub>
+                    </h2>
+            </a>
+            
+            
+            <a href="#" class="encuesta">
+
+                    <h1>¡APROVECHA YA!</h1>
+                
+            </a>
+
+        </div>
+        <section class="colecciones" style="display: none;">
+            <h2>Nuestras Colecciones</h2>
+            <ul class="campañas-sitio">
+              <li>
+                <img src="/img/img1.jpg" alt="Pasada">
+                <div class="conjunt">       
+                <a class="men" href="#">Pasada</a>
+                <p>120 Productos</p>
+                </div> 
+              </li>
+              <li> 
+                <img src="/img/img2.jpg" alt="Presente">
+                <div class="conjunt"> 
+                <a class="men" href="presente.html">Presente</a>
+                <p>120 Productos</p>
+                </div> 
+              </li>
+              <li>
+                <img src="/img/img3.jpg" alt="Futura">
+                <div class="conjunt">
+                <a class="men" href="#">Futura</a>
+                <p>120 Productos</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        <div class="contenedor-productos">
+            <script>
+                for (let i = 0; i < 8; i++){
+                    document.write(
+                            "<a href='#'>" +
+                                "<table cellspacing='7'>" +
+                                    "<tr>" +
+                                        "<td><img src='img/camisa.png'></td>" +
+                                    "</tr>" +
+                                    "<tr>" +
+                                        "<td><h2 align='center'>Camisa Sander Rojo</h2></td>" +
+                                    "</tr>" +
+                                    "<tr>" +
+                                        "<td><h3 align='center'>S/. 124.50</h3></td>" +
+                                    "</tr>" +
+                                "</table>" +
+                            "</a>");
+                }
+            </script>
+        </div>
+        <footer>
+            <table cellspacing="15" style="margin-right: 5.3%;">
+                <thead>
+                    <tr>
+                        <td><p>Nosotros</p></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><p>Somos una marca con más de 20 años en moda. Ropa para toda la familia</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <nav>
+                                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+                                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"></a>
+                                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2504/2504957.png"></a>
+                            </nav>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <table cellspacing="15" style="margin-right: 5.3%;">
+                <thead>
+                    <tr>
+                        <td><p>Enlaces y Intereses</p></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <nav>
+                                <p><a href="#">Blog</a></p>
+                                <p><a href="#">Contactanos</a></p>
+                                <p><a href="#">Tiendas</a></p>
+                                <p><a href="#">Terminos de Servicio</a></p>
+                                <p><a href="#">Libro de Reclamaciones</a></p>
+                            </nav>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <table cellspacing="15" style="margin-right: 5.3%;"   >
+                <thead>
+                    <tr>
+                        <td><p>Contacto</p></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div>
+                                <p>Telefono: 015389522</p>
+                                <p>Correo: examples@gmail.com</p>
+                                <p>Whatsapp: 905194831</p>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <table cellspacing="15">
+                <thead>
+                    <tr>
+                        <td><p>(Espacio Libre)</p></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>(Texto)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="txtcorreo" placeholder="Correo Electronico" class="text"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Enviar" class="submit"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </footer>
+          
+    </body>
+</html>
